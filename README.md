@@ -48,7 +48,7 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/IMRAN-8/IMRAN-8/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/IMRAN-8/IMRAN-8/output/snake.svg" />
 
 ###
 
