@@ -1,4 +1,15 @@
-<p align="left"># Hi, I'm Imran 👋<br><br>💻 Learning from debugging <br>🔧 Interested in Programming & IoT</p>
+<p align="left"># Hi, I'm Imran 👋
+
+I'm interested in **Java, C++, backend development, and IoT systems**.  
+I enjoy building practical projects, learning through debugging, and turning ideas into working software.
+
+## Tech Stack
+Java • C++ • JavaScript • Node.js • Express.js • Arduino • ESP32 • Git • GitHub
+
+## Featured Projects
+- **Luna Server** — Node.js backend server with API and frontend supported ESP32-based IoT communication.
+- **SFML Tennis Game** — C++ game project built with SFML.
+</p>
 
 ###
 
