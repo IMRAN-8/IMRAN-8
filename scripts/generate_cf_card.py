@@ -100,8 +100,8 @@ def generate_svg(user, solved_count):
     Competitive Programming Progress
   </text>
 
-  <rect x="30" y="105" width="540" height="130" rx="16" fill="#161B22"/>
-  <rect x="30" y="105" width="540" height="130" rx="16" stroke="#30363D"/>
+  <rect x="30" y="105" width="740" height="130" rx="16" fill="#161B22"/>
+  <rect x="30" y="105" width="740" height="130" rx="16" stroke="#30363D"/>
 
   <text x="55" y="145" fill="#8B949E" font-size="15" font-family="Segoe UI, Arial, sans-serif">Name</text>
   <text x="210" y="145" fill="#F0F6FC" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="600">{full_name}</text>
