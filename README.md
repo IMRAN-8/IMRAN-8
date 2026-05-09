@@ -52,6 +52,8 @@ Java • C++ • JavaScript • Node.js • Express.js • Arduino • ESP32 •
 </div>
 
 ###
+![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=IMRAX)
+###
 
 <img src="https://raw.githubusercontent.com/IMRAN-8/IMRAN-8/output/snake.svg" />
 
