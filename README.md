@@ -58,7 +58,7 @@ Java • C++ • JavaScript • Node.js • Express.js • Arduino • ESP32 •
 
 ###
 
-<img src="https://raw.githubusercontent.com/IMRAN-8/IMRAN-8/output/snake.svg" />
+<p align="center"><img src="https://raw.githubusercontent.com/IMRAN-8/IMRAN-8/output/snake.svg" /></p>
 
 ###
 
