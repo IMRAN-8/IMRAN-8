@@ -88,7 +88,7 @@ def generate_svg(user, solved_count):
     rank_color = get_rank_color(rank)
     updated = datetime.now().astimezone().strftime("%Y-%m-%d")
 
-    svg = f'''<svg width="600" height="280" viewBox="0 0 600 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+    svg = f'''<svg width="800" height="280" viewBox="0 0 800 280" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="600" height="280" rx="22" fill="#0D1117"/>
   <rect x="1" y="1" width="598" height="278" rx="22" stroke="#30363D" stroke-width="2"/>
 
@@ -112,10 +112,10 @@ def generate_svg(user, solved_count):
   <text x="55" y="205" fill="#8B949E" font-size="15" font-family="Segoe UI, Arial, sans-serif">Friends</text>
   <text x="210" y="205" fill="#F0F6FC" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="600">{friends}</text>
 
-  <text x="370" y="145" fill="#8B949E" font-size="15" font-family="Segoe UI, Arial, sans-serif">C-Rating</text>
+  <text x="370" y="145" fill="#8B949E" font-size="15" font-family="Segoe UI, Arial, sans-serif">Rating</text>
   <text x="490" y="145" fill="{rank_color}" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="700">{rating} ({safe_text(rank)})</text>
 
-  <text x="370" y="175" fill="#8B949E" font-size="15" font-family="Segoe UI, Arial, sans-serif">M-Rating</text>
+  <text x="370" y="175" fill="#8B949E" font-size="15" font-family="Segoe UI, Arial, sans-serif">Max Rating</text>
   <text x="490" y="175" fill="#F0F6FC" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="600">{max_rating} ({safe_text(max_rank)})</text>
 
   <text x="370" y="205" fill="#8B949E" font-size="15" font-family="Segoe UI, Arial, sans-serif">Solved</text>
