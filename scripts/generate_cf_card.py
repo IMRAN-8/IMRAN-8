@@ -89,8 +89,8 @@ def generate_svg(user, solved_count):
     updated = datetime.now().astimezone().strftime("%Y-%m-%d")
 
     svg = f'''<svg width="800" height="280" viewBox="0 0 800 280" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="600" height="280" rx="22" fill="#0D1117"/>
-  <rect x="1" y="1" width="598" height="278" rx="22" stroke="#30363D" stroke-width="2"/>
+  <rect width="800" height="280" rx="22" fill="#0D1117"/>
+  <rect x="1" y="1" width="798" height="278" rx="22" stroke="#30363D" stroke-width="2"/>
 
   <text x="30" y="48" fill="#F0F6FC" font-size="26" font-family="Segoe UI, Arial, sans-serif" font-weight="700">
     Codeforces Stats
