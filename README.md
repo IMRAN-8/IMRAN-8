@@ -55,8 +55,6 @@ Java • C++ • JavaScript • Node.js • Express.js • Arduino • ESP32 •
 
 ## Competitive Programming
 
-I practice competitive programming on Codeforces to improve my problem-solving, algorithms, and C++ skills.
-
 ![Codeforces Stats](./assets/codeforces-stats.svg)
 ###
 
