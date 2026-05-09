@@ -54,8 +54,9 @@ Java • C++ • JavaScript • Node.js • Express.js • Arduino • ESP32 •
 ###
 
 ## Competitive Programming
+<div align="center">
 <img src="https://raw.githubusercontent.com/IMRAN-8/IMRAN-8/main/assets/codeforces-stats.svg?v=2"/>
-
+</div>
 ###
 
 <p align="center"><img src="https://raw.githubusercontent.com/IMRAN-8/IMRAN-8/output/snake.svg" /></p>
