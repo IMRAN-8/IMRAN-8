@@ -95,6 +95,9 @@ def generate_svg(user, solved_count):
 <rect x="55" y="24" width="10" height="30" rx="2" fill="#F7B100"/>
 <rect x="70" y="14" width="10" height="40" rx="2" fill="#1F8ACB"/>
 <rect x="85" y="29" width="10" height="25" rx="2" fill="#D9534F"/>
+
+ <text x="105" y="14" fill="#FFFFFF" font-size="30" font-family="Segoe UI, Arial, sans-serif">CODEFORCES</text>
+
   <text x="30" y="78" fill="#8B949E" font-size="14" font-family="Segoe UI, Arial, sans-serif">
     Competitive Programming Progress
   </text>
