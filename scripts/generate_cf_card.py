@@ -112,14 +112,14 @@ def generate_svg(user, solved_count):
   <text x="55" y="205" fill="#8B949E" font-size="15" font-family="Segoe UI, Arial, sans-serif">Friends</text>
   <text x="210" y="205" fill="#F0F6FC" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="600">{friends}</text>
 
-  <text x="370" y="145" fill="#8B949E" font-size="15" font-family="Segoe UI, Arial, sans-serif">Rating</text>
-  <text x="490" y="145" fill="{rank_color}" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="700">{rating} ({safe_text(rank)})</text>
+  <text x="500" y="145" fill="#8B949E" font-size="15" font-family="Segoe UI, Arial, sans-serif">Rating</text>
+  <text x="650" y="145" fill="{rank_color}" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="700">{rating} ({safe_text(rank)})</text>
 
-  <text x="370" y="175" fill="#8B949E" font-size="15" font-family="Segoe UI, Arial, sans-serif">Max Rating</text>
-  <text x="490" y="175" fill="#F0F6FC" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="600">{max_rating} ({safe_text(max_rank)})</text>
+  <text x="500" y="175" fill="#8B949E" font-size="15" font-family="Segoe UI, Arial, sans-serif">Max Rating</text>
+  <text x="650" y="175" fill="#F0F6FC" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="600">{max_rating} ({safe_text(max_rank)})</text>
 
-  <text x="370" y="205" fill="#8B949E" font-size="15" font-family="Segoe UI, Arial, sans-serif">Solved</text>
-  <text x="490" y="205" fill="#58A6FF" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">{solved_count}</text>
+  <text x="500" y="205" fill="#8B949E" font-size="15" font-family="Segoe UI, Arial, sans-serif">Solved</text>
+  <text x="650" y="205" fill="#58A6FF" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">{solved_count}</text>
 
   <text x="30" y="258" fill="#8B949E" font-size="13" font-family="Segoe UI, Arial, sans-serif">
     Updated: {updated} • Keep solving, keep improving.
