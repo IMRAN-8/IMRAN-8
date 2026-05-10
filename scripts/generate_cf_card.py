@@ -104,22 +104,22 @@ def generate_svg(user, solved_count):
   <rect x="30" y="105" width="740" height="130" rx="16" stroke="#30363D"/>
 
   <text x="55" y="145" fill="#8B949E" font-size="15" font-family="Segoe UI, Arial, sans-serif">Name</text>
-  <text x="210" y="145" fill="#F0F6FC" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="600">{full_name}</text>
+  <text x="205" y="145" fill="#F0F6FC" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="600">{full_name}</text>
 
   <text x="55" y="175" fill="#8B949E" font-size="15" font-family="Segoe UI, Arial, sans-serif">Handle</text>
-  <text x="210" y="175" fill="#58A6FF" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="700">{safe_text(handle)}</text>
+  <text x="205" y="175" fill="#58A6FF" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="700">{safe_text(handle)}</text>
 
   <text x="55" y="205" fill="#8B949E" font-size="15" font-family="Segoe UI, Arial, sans-serif">Friends</text>
-  <text x="210" y="205" fill="#F0F6FC" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="600">{friends}</text>
+  <text x="205" y="205" fill="#F0F6FC" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="600">{friends}</text>
 
-  <text x="500" y="145" fill="#8B949E" font-size="15" font-family="Segoe UI, Arial, sans-serif">Rating</text>
-  <text x="650" y="145" fill="{rank_color}" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="700">{rating} ({safe_text(rank)})</text>
+  <text x="490" y="145" fill="#8B949E" font-size="15" font-family="Segoe UI, Arial, sans-serif">Rating</text>
+  <text x="640" y="145" fill="{rank_color}" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="700">{rating} ({safe_text(rank)})</text>
 
-  <text x="500" y="175" fill="#8B949E" font-size="15" font-family="Segoe UI, Arial, sans-serif">Max Rating</text>
-  <text x="650" y="175" fill="#F0F6FC" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="600">{max_rating} ({safe_text(max_rank)})</text>
+  <text x="490" y="175" fill="#8B949E" font-size="15" font-family="Segoe UI, Arial, sans-serif">Max Rating</text>
+  <text x="640" y="175" fill="#F0F6FC" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="600">{max_rating} ({safe_text(max_rank)})</text>
 
-  <text x="500" y="205" fill="#8B949E" font-size="15" font-family="Segoe UI, Arial, sans-serif">Solved</text>
-  <text x="650" y="205" fill="#58A6FF" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">{solved_count}</text>
+  <text x="490" y="205" fill="#8B949E" font-size="15" font-family="Segoe UI, Arial, sans-serif">Solved</text>
+  <text x="640" y="205" fill="#58A6FF" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">{solved_count}</text>
 
   <text x="30" y="258" fill="#8B949E" font-size="13" font-family="Segoe UI, Arial, sans-serif">
     Updated: {updated} • Keep solving, keep improving.
